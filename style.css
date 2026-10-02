@@ -201,6 +201,14 @@ p {
   }
 }
 
+/* まだ公開していないストア(押せないことが分かるよう、塗りをやめて枠だけにする) */
+.store-link.pending {
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--sub);
+  color: var(--sub);
+  font-weight: 400;
+}
+
 .note {
   color: var(--sub);
   font-size: 13px;
